@@ -2,6 +2,8 @@ kind: Service
 apiVersion: v1
 metadata:
   name: juice-shop
+  labels:
+    app: juice-shop
 spec:
   type: NodePort
   selector:
